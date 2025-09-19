@@ -1,0 +1,113 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    font: hsl(0, 0%, 7%);
+    font-weight: 500;
+    margin: 0;
+}
+.container {
+    max-width: 384px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid black;
+    filter: drop-shadow(8px 8px black);
+    gap: 24px;
+}
+.illustration-container {
+    display: flex;
+    justify-content: center;
+}
+.illustration {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.badge {
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin: 0;
+    line-height: 150%;
+}
+.date {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 150%;
+}
+#headline {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 150%;
+}
+#headline:hover {
+    color: hsl(47, 88%, 63%);
+}
+.text {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+    margin: 0;
+    line-height: 150%;
+}
+.author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.profile-image {
+    height: 32px;
+    width: 32px;
+}
+.author-name {
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 150%;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 576px) {
+    .badge {
+        font-size: 12px;
+    }
+    .date {
+        font-size: 12px;
+    }
+    #headline {
+        font-size: 20px;
+    }
+    .text {
+        font-size: 14px;
+    }
+}
