@@ -24,7 +24,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
--   [Live Site](https://enricoelias.github.io/blog-preview-page/)
+-   [Live Site](https://enricoelias.github.io/blog-preview/)
 
 ## My process
 
